@@ -2,49 +2,90 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>PetShop</title>
 </head>
 <body>
     <header>
-        <span>Grandes ofertas en comederos</span>
-        <ul>
-            <li>Español</li>
-            <li>$ARG</li>
-        </ul>
-        <img src="./images/Logo.png" alt="Cat&Dog">
-        <nav>
-            <ul>
-                <li>Categorías</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
+        <section class="header-container-top">
+            <p>Grandes ofertas en comederos</p>
+            <ul class="header-lista">
+              <li>Español</li>
+              <li>$ARG</li>
             </ul>
-        </nav>
+        </section>
+        <section class="header-container-bottom">
+            <p class="logo-base">
+              <img src="img/Cat.png" alt="gato" />
+              <span class="logo-first">Front</span>
+              Cat&Dog
+              <img src="img/Dog.png" alt="perro" />
+            </p>
+            <nav>
+              <ul class="nav-links">
+                <li>
+                  <img src="img/pawprint 1.png" alt="" /><span>Categorías</span>
+                </li>
+                <li><img src="img/pawprint 1.png" alt="" /><span>Pets</span></li>
+                <li>
+                  <img src="img/pawprint 1.png" alt="" /><span>Nosotros</span>
+                </li>
+                <li>
+                  <img src="img/pawprint 1.png" alt="" /><span>Contactanos</span>
+                </li>
+              </ul>
+            </nav>
+        </section>
     </header>
     <main>
-        <section>
-            <img src="./images/bowl-and-pet-daities-on-green-background 1.png" alt="bowl and pets daities">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <a href="#">COMEDEROS</a>
+        <section class="banner">
+            <h1>¡Es un placer tenerte aquí!</h1>
+            <article>
+                <p>¡Comederos en descuento!</p>
+                <a href="#">COMEDEROS</a>
+            </article>
         </section>
-        <section>
-            <img src="./images/pawprint.png" alt="pawprint">
+        <section class="products">
             <h2>Productos Destacados</h2>
             <p>Comederos - Accesorios - Comida</p>
-            <img src="./images/churrasquito.png" alt="churrasquito">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="./images/comedero.png" alt="comedero">
-            <p>Comedero para perro</p>
-            <p>$250</p>
-            <img src="./images/Huesito.png" alt="huesito">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
+            <article>
+                <img src="./img/churrasquito.png" alt="churrasquito">
+                <p>Juguete Churrasquito</p>
+                <p class="price">$150</p>
+                <img src="./img/comedero.png" alt="comedero">
+                <p>Comedero para perro</p>
+                <p  class="price">$250</p>
+                <img src="./img/Huesito.png" alt="huesito">
+                <p>Juguete Huesito</p>
+                <p  class="price">$650</p>
+            </article>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <article>
+            <img src="./img/location.png" alt="location">
+            <p>Localidad</p>
+            <span>Calle - provincia</span>
+        </article>
+        <article>
+            <img src="./img/tel.png" alt="tel">
+            <p>Teléfono</p>
+            <span>Número de teléfono</span>
+        </article>
+        <article>
+            <img src="./img/email.png" alt="email">
+            <p>Correo Electrónico</p>
+            <span>Dirección de correo</span>
+        </article>
+        <p class="logo-base logo-footer">
+            <img src="img/Cat.png" alt="gato" />
+            <span class="logo-second">Front</span>
+            Cat&Dog
+            <img src="img/Dog.png" alt="perro" />
+          </p>
     </footer>
+    <div class="reserve">
+        <p>Todos los derechos reservados Front End</p>
+    </div>
 </body>
 </html>
