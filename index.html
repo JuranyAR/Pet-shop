@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>PetShop</title>
 </head>
@@ -35,54 +36,80 @@
                 </li>
               </ul>
             </nav>
+            <i class="fa-solid fa-bars menu-mobile" style="color: #ffffff;"></i>
         </section>
     </header>
     <main>
         <section class="banner">
+          <article>
             <h1>¡Es un placer tenerte aquí!</h1>
-            <article>
-                <p>¡Comederos en descuento!</p>
-                <a href="#">COMEDEROS</a>
-            </article>
+            <p>¡Comederos en descuento!</p>
+            <a href="#">COMEDEROS</a>
+          </article>
         </section>
         <section class="products">
+            <img src="./img/pawprint.png" alt="">
             <h2>Productos Destacados</h2>
             <p>Comederos - Accesorios - Comida</p>
             <article>
-                <img src="./img/churrasquito.png" alt="churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p class="price">$150</p>
-                <img src="./img/comedero.png" alt="comedero">
-                <p>Comedero para perro</p>
-                <p  class="price">$250</p>
-                <img src="./img/Huesito.png" alt="huesito">
-                <p>Juguete Huesito</p>
-                <p  class="price">$650</p>
+                <div>
+                  <img src="./img/churrasquito.png" alt="churrasquito">
+                  <p>Juguete Churrasquito</p>
+                  <p class="price">$150</p>
+                </div>
+                <div>
+                  <img src="./img/comedero.png" alt="comedero">
+                  <p>Comedero para perro</p>
+                  <p  class="price">$250</p>
+                </div>
+                <div>
+                  <img src="./img/Huesito.png" alt="huesito">
+                  <p>Juguete Huesito</p>
+                  <p  class="price">$650</p>
+                </div>
             </article>
+        </section>
+        <section class="email">
+          <article>
+            <img src="./img/enviar-correo.png" alt="email">
+            <h2>Suscríbete para más novedades</h2>
+          </article>
+          <article>
+            <input type="text" placeholder="Ingresá tu correo electronico" />
+            <button type="button">Suscribirme</button>
+          </article>
         </section>
     </main>
     <footer>
-        <article>
+        <div>
+          <article>
             <img src="./img/location.png" alt="location">
-            <p>Localidad</p>
-            <span>Calle - provincia</span>
+            <div>
+              <p>Localidad</p>
+              <span>Calle - provincia</span>
+            </div>
         </article>
         <article>
             <img src="./img/tel.png" alt="tel">
-            <p>Teléfono</p>
-            <span>Número de teléfono</span>
+            <div>
+              <p>Teléfono</p>
+              <span>Número de teléfono</span>
+            </div>
         </article>
         <article>
             <img src="./img/email.png" alt="email">
-            <p>Correo Electrónico</p>
-            <span>Dirección de correo</span>
+            <div>
+              <p>Correo Electrónico</p>
+              <span>Dirección de correo</span>
+            </div>
         </article>
+        </div>
         <p class="logo-base logo-footer">
-            <img src="img/Cat.png" alt="gato" />
-            <span class="logo-second">Front</span>
-            Cat&Dog
-            <img src="img/Dog.png" alt="perro" />
-          </p>
+          <img src="img/Cat.png" alt="gato" />
+          <span class="logo-second">Front</span>
+          Cat&Dog
+          <img src="img/Dog.png" alt="perro" />
+        </p>
     </footer>
     <div class="reserve">
         <p>Todos los derechos reservados Front End</p>
